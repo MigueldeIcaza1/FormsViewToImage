@@ -26,41 +26,5 @@
             <Label Grid.Row="8" Text="Image created using Xamarin Forms9" FontSize="Large" TextColor="Tomato"/>
         </Grid>
         
-        <!--<StackLayout VerticalOptions="CenterAndExpand">
-            <Label Grid.Row="6" Text="Image created using Xamarin Forms7" TextColor="Tomato"/>
-        </StackLayout>-->
-
-        <!--<StackLayout>
-        <ListView  HasUnevenRows="True"
-                   SeparatorVisibility="None"
-                   ItemsSource="{Binding Data}"
-                   Margin="4">
-
-            <ListView.ItemTemplate>
-                <DataTemplate>
-
-                    <ViewCell>
-                        <Grid  RowSpacing="0" Padding="2,2" BackgroundColor="YellowGreen">
-
-                            <Grid Padding=".5" BackgroundColor="#DDD6D7">
-                                <Frame Padding="0" HasShadow="False" CornerRadius="0">
-                                    <Grid Padding="4">
-                                        <Grid.RowDefinitions>
-                                            <RowDefinition Height="*"></RowDefinition>
-                                            <RowDefinition Height="Auto"></RowDefinition>
-                                        </Grid.RowDefinitions>
-
-                                        <Label Text="{Binding Category}" TextColor="#ef7c09" FontFamily="Roboto-Regular" HorizontalOptions="Center"/>
-                                        <Label Grid.Row="1" Text="{Binding Value}" TextColor="#15c17c" FontFamily="Roboto-Regular" HorizontalOptions="Center"/>
-                                    </Grid>
-                                </Frame>
-                            </Grid>
-                        </Grid>
-                    </ViewCell>
-
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-        </StackLayout>-->
     </ContentPage.Content>
 </ContentPage>

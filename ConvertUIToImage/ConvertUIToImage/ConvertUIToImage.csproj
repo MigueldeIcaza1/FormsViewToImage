@@ -41,7 +41,6 @@
     <Compile Include="FormsPage.xaml.cs">
       <DependentUpon>FormsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="FormsPageModel.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>

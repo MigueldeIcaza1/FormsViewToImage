@@ -15,7 +15,6 @@ namespace ConvertUIToImage
 		public FormsPage ()
 		{
 			InitializeComponent ();
-            BindingContext = new FormsPageModel();
         }
 	}
 }
