@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ConvertUIToImage"
+             xmlns:customControls="clr-namespace:ConvertUIToImage;assembly=ConvertUIToImage"
+             x:Class="ConvertUIToImage.MainPage"
+             Title="Save Image (Demo)">
+
+    <Grid Padding="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Label VerticalOptions="Center" HorizontalOptions="Center" Text="Demo on saving any view as Image in moblie"/>
+        <customControls:NativeButton Grid.Row="1" x:Name="SaveButton" Text="SaveImage" TextColor="White" BackgroundColor="Teal"/>
+    </Grid>
+    
+</ContentPage>

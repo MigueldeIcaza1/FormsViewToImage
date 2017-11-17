@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ConvertUIToImage.FormsPage"
+             Padding="20">
+    <ContentPage.Content>
+        
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Text="Image created using Xamarin Forms1" FontSize="Large" TextColor="Teal"/>
+            <Label Grid.Row="1" Text="Image created using Xamarin Forms2" FontSize="Large" TextColor="Red"/>
+            <Label Grid.Row="2" Text="Image created using Xamarin Forms3" FontSize="Large" TextColor="ForestGreen"/>
+            <Label Grid.Row="3" Text="Image created using Xamarin Forms4" FontSize="Large" TextColor="CadetBlue"/>
+            <Label Grid.Row="4" Text="Image created using Xamarin Forms5" FontSize="Large" TextColor="OrangeRed"/>
+            <Label Grid.Row="5" Text="Image created using Xamarin Forms6" FontSize="Large" TextColor="PaleTurquoise"/>
+            <Label Grid.Row="6" Text="Image created using Xamarin Forms7" FontSize="Large" TextColor="Tomato"/>
+            <Label Grid.Row="7" Text="Image created using Xamarin Forms8" FontSize="Large" TextColor="Tomato"/>
+            <Label Grid.Row="8" Text="Image created using Xamarin Forms9" FontSize="Large" TextColor="Tomato"/>
+        </Grid>
+        
+        <!--<StackLayout VerticalOptions="CenterAndExpand">
+            <Label Grid.Row="6" Text="Image created using Xamarin Forms7" TextColor="Tomato"/>
+        </StackLayout>-->
+
+        <!--<StackLayout>
+        <ListView  HasUnevenRows="True"
+                   SeparatorVisibility="None"
+                   ItemsSource="{Binding Data}"
+                   Margin="4">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+
+                    <ViewCell>
+                        <Grid  RowSpacing="0" Padding="2,2" BackgroundColor="YellowGreen">
+
+                            <Grid Padding=".5" BackgroundColor="#DDD6D7">
+                                <Frame Padding="0" HasShadow="False" CornerRadius="0">
+                                    <Grid Padding="4">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*"></RowDefinition>
+                                            <RowDefinition Height="Auto"></RowDefinition>
+                                        </Grid.RowDefinitions>
+
+                                        <Label Text="{Binding Category}" TextColor="#ef7c09" FontFamily="Roboto-Regular" HorizontalOptions="Center"/>
+                                        <Label Grid.Row="1" Text="{Binding Value}" TextColor="#15c17c" FontFamily="Roboto-Regular" HorizontalOptions="Center"/>
+                                    </Grid>
+                                </Frame>
+                            </Grid>
+                        </Grid>
+                    </ViewCell>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        </StackLayout>-->
+    </ContentPage.Content>
+</ContentPage>
